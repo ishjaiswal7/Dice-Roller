@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btn = findViewById((R.id.btnRoll)) // initialize btn
-        imgDice = findViewById((R.id.imgDiceOutput)) // initialize imgDice
+        btn = findViewById(R.id.btnRoll) // initialize btn
+        imgDice = findViewById(R.id.imgDice) // initialize imgDice
         //textDice = findViewById((R.id.diceRollOutput)) // initialize textDice
         btn.setOnClickListener {
             rollDice()

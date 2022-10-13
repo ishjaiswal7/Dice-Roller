@@ -24,7 +24,7 @@ class ExampleUnitTest {
     fun dice_roll_test() {
         val dice = Dice(6)
         val result = dice.roll()
-        assertTrue(result,1..6)
+        assertNotEquals(0,result)
     }
 
 }
